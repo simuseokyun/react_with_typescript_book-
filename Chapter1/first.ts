@@ -69,6 +69,6 @@ interface Two extends One {
 const bc: Two = { breed: true, breath: true };
 
 interface fun {
-    talk: () => void; // 함수 타입
-    eat: () => void; // 함수 타입
+    talk: () => void;
+    eat: () => void;
 }
